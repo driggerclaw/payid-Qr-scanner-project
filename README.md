@@ -10,3 +10,6 @@ As a user, I want to scan a QR code so that I can make payments quickly.
 - QR scanning
 - Auto-fill PayID
 - Error handling
+## Validation
+- Ensure QR contains valid PayID
+- Show error if invalid
