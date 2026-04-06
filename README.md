@@ -13,3 +13,7 @@ As a user, I want to scan a QR code so that I can make payments quickly.
 ## Validation
 - Ensure QR contains valid PayID
 - Show error if invalid
+## QR Validation Rules
+- Ensure the QR code contains valid PayID data
+- Display an error message if the QR code is invalid
+- Prevent incomplete payment details from being submitted
