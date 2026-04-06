@@ -17,3 +17,7 @@ As a user, I want to scan a QR code so that I can make payments quickly.
 - Ensure the QR code contains valid PayID data
 - Display an error message if the QR code is invalid
 - Prevent incomplete payment details from being submitted
+## Error Handling
+- Notify users if the QR code cannot be scanned
+- Allow users to retry scanning
+- Provide fallback for manual PayID entry
